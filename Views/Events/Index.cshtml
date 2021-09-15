@@ -4,9 +4,7 @@
     <a asp-controller="Events" asp-action="Add">Add Event</a>
 </p>
 
-<p>
-    <a asp-controller="Events" asp-action="Delete">Delete Event</a>
-</p>
+
 
 @if (ViewBag.events.Count == 0)
 {
@@ -36,4 +34,7 @@ else
             </tr>
         }
     </table>
+    <p>
+    <a asp-controller="Events" asp-action="Delete">Delete Event</a>
+</p>
 }
