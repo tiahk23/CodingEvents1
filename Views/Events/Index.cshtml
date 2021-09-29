@@ -31,6 +31,9 @@ else
             <th>
                 Contact Email
             </th>
+            <th>
+                Type
+            </th>
         </tr>
         @foreach (var meeting in Model)
         {
@@ -39,6 +42,7 @@ else
                 <td>@meeting.Name</td>
                 <td>@meeting.Description</td>
                 <td>@meeting.ContactEmail</td>
+                <td>@meeting.Type</td>
             </tr>
         }
     </table>
