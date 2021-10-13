@@ -9,7 +9,7 @@ namespace CodingEvents1.Data
 {
     public class EventDbContext : DbContext
     {
-        public DbSet<Event> MyProperty { get; set; }
+        public DbSet<Event> Events { get; set; }
 
         public EventDbContext(DbContextOptions<EventDbContext> options) : base(options)
         {
