@@ -11,7 +11,9 @@ namespace CodingEvents1.Models
         public string Description { get; set; }
         public string ContactEmail { get; set; }
 
-        public EventType Type { get; set; }
+        public EventCategory Category { get; set; }
+
+        public int CategroryId { get; set; }
 
         public int Id { get; set; }
 
