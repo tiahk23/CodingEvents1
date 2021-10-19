@@ -1,9 +1,8 @@
-﻿using System;
-
+﻿using System.Collections.Generic;
 
 namespace CodingEvents1.Models
 {
-	public class EventCategory
+    public class EventCategory
 	{
 		public string Name { get; set; }
 
